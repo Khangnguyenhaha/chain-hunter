@@ -1,0 +1,29 @@
+{
+  "name": "chain-hunter",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:sui": "node scripts/parse-sui-deploy.js",
+    "deploy": "bash scripts/deploy.sh",
+    "deploy:win": "scripts\\deploy.bat"
+  },
+  "dependencies": {
+    "@mysten/dapp-kit": "^0.19.11",
+    "@mysten/sui": "^1.45.2",
+    "@mysten/sui.js": "^0.54.1",
+    "lucide-react": "^0.454.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}

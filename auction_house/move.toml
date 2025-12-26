@@ -1,0 +1,6 @@
+[package]
+name = "auction_house"
+version = "0.0.1"
+
+[addresses]
+game = "0x0"
