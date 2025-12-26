@@ -1,3 +1,49 @@
+# Chain Hunter
+
+Chain Hunter is a blockchain-based RPG game project that combines a modern **web frontend (React + Vite)** with **on-chain smart contracts built on the Sui blockchain using Move**.
+
+The project focuses on player wallet integration and an on-chain **Auction House system** where in-game items can be listed, traded, and purchased.
+
+---
+
+## 🧩 Tech Stack
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+
+### Blockchain
+- Sui Blockchain
+- Move language
+- On-chain Auction House smart contract
+
+---
+
+## 📁 Project Structure
+
+```text
+chain-hunter/
+├── src/
+│   ├── App.jsx              # Root React component
+│   ├── main.jsx             # Application entry point
+│   ├── ChainHunter.jsx      # Core game logic
+│   ├── Wallet/
+│   │   └── SuiWallet.js     # Sui wallet integration
+│   └── index.css            # Global styles
+│
+├── auction_house/
+│   ├── sources/             # Move smart contract source code
+│   ├── build/               # Compiled Move artifacts
+│   └── Move.toml            # Move package configuration
+│
+├── ARCHITECTURE.md          # Project architecture overview
+├── tailwind.config.js       # Tailwind configuration
+├── vite.config.js           # Vite configuration
+├── .gitignore
+└── README.md
+
 # 📑 ChainHunter Auction House Implementation - Complete Index
 
 ## 🚀 Quick Start (Pick One)
